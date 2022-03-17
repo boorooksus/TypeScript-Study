@@ -2,12 +2,16 @@
 let 회원: number | string = 123;
 회원 = "abc";
 
-let 회원들2: (number | string)[] = [1, 2, 3];
+let 회원들2: (number | string)[] = [1, 2, "3"];
+
 let 오브젝트: { a: string | number } = { a: "123" };
 
 // 수학 연산은 number에서만 가능
 let 나이2: string | number;
 // console.log(나이2 + 1);
+
+나이2 = 10;
+console.log(나이2);
 
 // any
 let 이름3: any;

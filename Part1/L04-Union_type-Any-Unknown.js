@@ -1,11 +1,13 @@
 // union type: type 여러 개 중에 선택 가능
 var 회원 = 123;
 회원 = "abc";
-var 회원들2 = [1, 2, 3];
+var 회원들2 = [1, 2, "3"];
 var 오브젝트 = { a: "123" };
 // 수학 연산은 number에서만 가능
 var 나이2;
 // console.log(나이2 + 1);
+나이2 = 10;
+console.log(나이2);
 // any
 var 이름3;
 이름3 = 123;
