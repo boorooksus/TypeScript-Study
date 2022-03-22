@@ -43,8 +43,8 @@
 
   function Homework2() {
     class Word {
-      num: number[];
-      str: string[];
+      num: number[] = [];
+      str: string[] = [];
 
       constructor(...x: (string | number)[]) {
         x.forEach((item) => {

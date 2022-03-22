@@ -7,7 +7,6 @@
   };
 
   // object 에 함수 저장할 수 있음
-
   type UserType = {
     name: string;
     plusOne: (a: number) => number;
