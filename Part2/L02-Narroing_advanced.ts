@@ -7,6 +7,7 @@
     // string이면 실행(&& 왼쪽 오른쪽 둘 다 true)
     if (a && typeof a === "string") {
       console.log("a is string");
+      return;
     }
   }
   // &&: 조건식 2개가 참이면 전부 참으로 판정해주는 논리연산자

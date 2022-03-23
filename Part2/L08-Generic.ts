@@ -68,6 +68,7 @@
       }
     }
     let a = new Person<string>("어쩌구");
-    a.name; //any 타입이 되었넹
+    a.name;
+    console.log(typeof a.name);
   }
 };

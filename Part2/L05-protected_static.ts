@@ -1,5 +1,5 @@
 () => {
-  // private: extends된 class에서 사용 가능
+  // protected: extends된 class에서 사용 가능
   class User {
     protected x = 10;
   }
